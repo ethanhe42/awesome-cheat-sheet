@@ -7,15 +7,16 @@
 ]{hyperref}
 \usepackage{refcards}
 \usepackage{vmargin}
-\usepackage{lipsum} 
+\usepackage{lipsum}
+\usepackage{subfiles}
 
 % A4
 \setpapersize[landscape]{A4}
 \setmarginsrb%
-{0.3cm}  % left
-{0.3cm}  % top
-{0.3cm}  % right
-{0.3cm}  % bottom
+{0.1cm}  % left
+{0.1cm}  % top
+{0.1cm}  % right
+{0.1cm}  % bottom
 {0pt}    % header height
 {0mm}    % header separation
 {0pt}    % footer height
@@ -37,46 +38,27 @@
 \begin{document}
 \raggedright
 \begin{multicols}{3}
-
-
 \section{Key ingredients}
-\lipsum[2-4]
+\subfile{Key_ingredients}
 \section{Classification}
-\lipsum[2-4]
+\subfile{Classification}
 \section{Concept learning}
-\lipsum[2-4]
+\subfile{Concept_learning}
 \section{Decision trees}
-\lipsum[2-4]
+\subfile{Decision_trees}
 \section{Linear models}
-\lipsum[2-4]
+\subfile{Linear_models}
 \section{Distance-based models}
-\lipsum[1-4]
+\subfile{Distance-based_models}
 \section{Probabilistic models}
-\lipsum[1-4]
+\subfile{Probabilistic_models}
 \section{Features}
-\lipsum[1-4]
+\subfile{Features}
 \section{Model ensembles}
-\lipsum[1-4]
+\subfile{Model_ensembles}
 \section{ML experiments}
-\lipsum[1-4]
+\subfile{ML_experiments}
 \section{Neural network}
-\textbf{RNN} Directed cycles exist.\\
-
-\textbf{GD} search \textit{hypothesis space} to find $w$ for minimum error(slow, local minimum). \textit{Variation} incremental GD, SGD.\\
-
-\textbf{BP} minimize the squared error, iteratively propagate errors backwards from output units.$\Delta w_{ji}=\eta \delta_jz_{ji}$. \textbf{inductive bias}  smooth interpolation between data points. \textbf{termination condition} number of iterations, predetermined error threshold. \textbf{Overfitting} every iteration measure error on the validation set(cross-validation approach).\\
-
-\textbf{RL} agent learns behavior through trial-and-error interactions with a dynamic environment based on a reward signal(Game playing). \textbf{Rewards} from sequences of actions, can be separated temporally. \textbf{Q-learning} finds optimal action-selection policy for Markov Decision Process, learns an action-value function that gives the expected utility(convergence slow).\\
-
-\textbf{Multi-label classification} class labels are not mutually exclusive.feature-to-class mapping, dependence between classes are learned.(blog post tags)\\
-
-\textbf{Transfer learning}(inductive transfer) apply knowledge to a different but related problem(walk to run)\\
-
-\textbf{Online (incremental) learning} data available sequentially over time. updates the model each time a new data point arrives(visual tracking)\\
-
-\textbf{Active learning} semi-supervised learning, the algorithm queries information source(the user) to obtain the desired model(robotics, where to point the camera or sensors to gain useful information)\\
-
-\textbf{DL} learn many-layered NN, more abstract features. learn good representations of the data through unsupervised learning. \textbf{Cons} complex, slow, hard to explain.
-
+\subfile{Neural_network}
 \end{multicols}
 \end{document}
