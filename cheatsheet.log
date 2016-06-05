@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.18)  5 JUN 2016 15:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.18)  5 JUN 2016 15:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -327,27 +327,27 @@ File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./Model_ensembles.tex) (
 ./ML_experiments.tex
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 3.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 7.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 3.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 7.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 3.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 7.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 3.
+(Font)              <8> on input line 7.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 3.
+(Font)              <6> on input line 7.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 3.
+(Font)              <5> on input line 7.
 ) (./Neural_network.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 64.
  [2]
@@ -363,7 +363,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 64.
 Here is how much of TeX's memory you used:
  5186 strings out of 493029
  78838 string characters out of 6136234
- 284071 words of memory out of 5000000
+ 287547 words of memory out of 5000000
  8642 multiletter control sequences out of 15000+600000
  30254 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -375,7 +375,7 @@ hare/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public
 mf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmsy8.pfb>
-Output written on cheatsheet.pdf (2 pages, 118253 bytes).
+Output written on cheatsheet.pdf (2 pages, 120135 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  84 compressed objects within 1 object stream
