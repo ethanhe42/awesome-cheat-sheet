@@ -10,7 +10,8 @@
 - [ ] Features
 - [ ] Model ensembles
 - [x] ML experiments
-- [x] Neural network
+- [x] Neural network  
+
 ###### page 1
 ![a](cheatsheet-0.png)  
 ###### page 2
