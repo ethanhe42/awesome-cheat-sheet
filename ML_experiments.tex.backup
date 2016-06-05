@@ -1,0 +1,4 @@
+\documentclass[cheatsheet.tex]{subfiles}
+\begin{document}
+\textbf{Performance estimation}(testing), Holdout Method(\~30\%), cross-validation, leave-one-out
+\end{document}
