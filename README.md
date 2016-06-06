@@ -5,8 +5,8 @@
 - [ ] Concept learning
 - [ ] Decision trees
 - [ ] Linear models
-- [ ] Distance-based models
-- [ ] Probabilistic models
+- [x] Distance-based models
+- [x] Probabilistic models
 - [x] Features
 - [x] Model ensembles
 - [x] ML experiments

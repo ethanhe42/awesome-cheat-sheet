@@ -9,13 +9,5 @@ similarity is some function of distance. clustering is grouping data without pri
 \textbullet Objects in the same group (a cluster) are more similar to one another than to objects in other groups (clusters)
 \\
 \textbf{Distance measures} D(x1,x2) is a function D: $X\times X\rightarrow R$ such that for any xyz in X:
-1. D(x,x) = 0  2. If x != y then $D(x,y) > 0$ 3. D(x,y) = D(y,x) 4. $D(x,z)\leq D(x,y)+D(y,z)$. \textbf{Common Distance measures}Hamming(count differences), Manhattan, Euclidian, Minkowski($L_p$), Chebyshev, Mahalanobis
-\\
-\textbf{Distance-based methods} Methods for classification and clustering based on distances to exemplars or neighbors. Exemplar - a prototypical instance. Neighbor -- a nearby instance or exemplar. 
-\\
-\textbf{1NN} Assign the new instance x to the nearest labeled training point (or exemplar). 
-\textbullet Training = memorizing the training data
-\textbullet Each point is an exemplar, or exemplars are computed from the data
-\textbullet But it generalizes, unlike the lookup table approach
-\textbullet The implicit decision boundaries of a 1NN classifier comprise a Voronoi tesselation, Leads to piecewise linear decision boundaries.
+1. D(x,x) = 0  2. If x != y then $D(x,y) > 0$ 3. D(x,y) = D(y,x) 4. $D(x,z)\leq D(x,y)+D(y,z)$. \textbf{Common Distance measures} Manhattan, Euclidian, Minkowski($L_p$)
 \end{document}
