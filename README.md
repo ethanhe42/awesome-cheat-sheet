@@ -7,7 +7,7 @@
 - [ ] Linear models
 - [ ] Distance-based models
 - [ ] Probabilistic models
-- [ ] Features
+- [x] Features
 - [x] Model ensembles
 - [x] ML experiments
 - [x] Neural network  

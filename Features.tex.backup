@@ -1,8 +1,5 @@
 \documentclass[cheatsheet.tex]{subfiles}
 \begin{document}
-\textbf{features (aka attributes)} A mapping from the instance space X to the feature domain F. model can be thought of as just a new feature, particular combination of the input features, constructed to solve the task at hand. \textbf{Types} Quantitative(numeric scale, age), Ordinal(ordered set, ranks), Categorical(unordered set, color). \textbf{Statistics} Mode, Median, mean, range, std, Skewness, Kurtosis, Percentiles, Deciles, Quartiles, Interquartile range \textbf{Plots} histogram, Percentile plot(CDF, Shows cumulative fraction of data - what \% fall below a given value)
-
-
 \textbf{kNN} \textbullet Classify a new instance by taking a vote of the $\geq1$ nearest exemplars. \textbullet vote among all neighbors within a fixed radius r \textbullet combine the two, stopping when $count > k$ or $dist. > r$ \textbullet distance weighting, the closer an exemplar is to the instance, the more its vote counts. \textbf{ties} Preference to the 1NN, or Random choice. 
 \textbf{Pros} train $O(n)$, simple, intuitive 
 \textbf{Cons} test $O(n)$ require a good deal of storage, and can't easily represent a specific boundary geometry, rely on a useful distance metric.
