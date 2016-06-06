@@ -1,0 +1,8 @@
+\documentclass[cheatsheet.tex]{subfiles}
+\begin{document}
+are  “meta” methods. Construct different models from adapted versions of the training data, Combine the predictions by averaging voting, weighted voting. a strong classifier from a set of weak classifiers.
+\\
+\textbf{Bagging} bootstrap aggregation. T models on different samples. Samples are training data with replacement choosen with uniform probability, called bootstrap sample. Decision boundary is \textit{piecewise linear}.(useful for tree model). \textbf{Subspace sampling} Build each decision tree from a different random subset of the features. $Bagging + subspace sampling = random forests method$. 
+\\
+\textbf{Boosting} create diverse training sets, add classifiers that do better on the misclassifications from earlier classifiers, by giving them a higher weight(less susceptible to overfitting).Can be extended to multi-class classification. \textbf{Adaboost}(adaptive boosting), As long as the performance of each classifier is better than chance$\epsilon<0.5$ , it is guaranteed to converge to a better classifier.
+\end{document}
