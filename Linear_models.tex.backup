@@ -6,7 +6,7 @@ are geometric models for which the regression functions or decision boundaries a
 \textbf{low variance} stability, robustness, Performance on, different testing sets, should be similar. \textbf{High bias} limited accuracy, underfitting, systematic (but consistent) errors. 
 \textbf{parametric models} we just need to learn the model parameters. kNN is non-parametric model. 
 \subsection{least-square}
-Regression learns a function (the regressor) that is a mapping $\hat{f}:X\rightarrow \mathbb{R}$, from examples($x_i, f(x_i)$), Linear regression – the function is linear. The difference between f and $\hat{f}$ is known as the residual $\epsilon=f(x)-\hat(f)(x)$ The least squares method minimizes the sum of the squared residuals. Univariate -- one input variable. Multivariate -- multiple input variables. The slope ($\hat{b}$) is the \textbf{regression coefficient}, $\hat{b}=\sigma_{xy}/\sigma_x^2$, We can simplify the problem by first normalizing the data, so $\hat{a}=0$. \textbf{multivariate LR} N+1 regression parameters.
+Regression learns a function (the regressor) that is a mapping $\hat{f}:X\rightarrow \mathbb{R}$, from examples($x_i, f(x_i)$), Linear regression – the function is linear. The difference between f and $\hat{f}$ is known as the residual $\epsilon=f(x)-\hat(f)(x)$ The least squares method minimizes the sum of the squared residuals. Univariate -- one input variable. Multivariate -- multiple input variables. The slope ($\hat{b}$) is the \textbf{regression coefficient}, $\hat{b}=\sigma_{xy}/\sigma_x^2$
 \subsection{perceptron}
 \lipsum[1-2]
 \subsection{svm}
