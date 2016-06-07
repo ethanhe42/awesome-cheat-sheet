@@ -1,12 +1,16 @@
 \documentclass[cheatsheet.tex]{subfiles}
 \begin{document}
+machine learning experiments pose questions about models that we try to answer by means of measurements on data\\
 \textbf{ML experiments} confirm the various assumptions in a ML problem, establish realistic expectations for performance. \textbf{Questions} specific model perform on data from D? a set of models has the best performance on D? models from learning algorithm A perform on D? learning model A produces the best models for domain D?\\
 
 \textbf{Performance measure} accuracy assume the same class distribution of read and test. average recall assume real problem is uniform class distribution.\\
-
-\textbf{Performance estimation}(testing), Holdout Method(leave $\sim30\%$), cross-validation, leave-one-out.\\
-
+the combination of precision and recall, and therefore the \textbf{F-measure}, is insensitive to the number of true negatives
+\\
+\textbf{predicted positive rate}=pos x tpr + (1−pos) x fpr
+\\
+\textbf{Performance estimation}(testing), Holdout Method(leave $\sim30\%$), cross-validation, leave-one-out.
+\\
 \textbf{Cross-validation} reduce the sample variance by $1/\sqrt{k}$. large data sets, fewer folds. For sparse, leave-one-out best. If $var>acceptable\ var$, we need more data. If statisfied, run over the entire data set produce the final model. \\
-
+\textbf{stratified cross-validation} If we expect the learning algorithm to be sensitive to the class distribution. \\
 \textbf{Testing} Applied after the model is finalized. 
 \end{document}

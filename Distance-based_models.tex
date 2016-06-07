@@ -1,7 +1,9 @@
 \documentclass[cheatsheet.tex]{subfiles}
 \begin{document}
-similarity is some function of distance. clustering is grouping data without prior information(unlabeled data). \textbf{Why cluster?} \textbullet make apparent the natural groupings/structure in the data (perhaps for further processing)
+Similarity is some function of distance. Clustering is grouping data without prior information(unlabeled data). \textbf{Why cluster?} \textbullet make apparent the natural groupings/structure in the data (perhaps for further processing)
 \textbullet To discover previously unknown relationships \textbullet To provide generic labels for the data
+\\
+\textbf{the basic linear classifier} can be interpreted from a distance-based perspective as constructing exemplars that minimise squared Euclidean distance within each class, and then applying a nearest-exemplar decision rule
 \\
 \textbf{Clustering} we organize data into classes such that:
 \textbullet The within-class (intra-class) similarity is high(Lower intra-class variance)
@@ -17,5 +19,5 @@ similarity is some function of distance. clustering is grouping data without pri
 \textbullet Training = memorizing the training data
 \textbullet Each point is an exemplar, or exemplars are computed from the data
 \textbullet But it generalizes, unlike the lookup table approach
-\textbullet The implicit decision boundaries of a 1NN classifier comprise a Voronoi tesselation, Leads to piecewise linear decision boundaries.
+\textbullet The implicit decision boundaries of a 1NN classifier comprise a \textbf{Voronoi tesselation}, Leads to piecewise linear decision boundaries.
 \end{document}

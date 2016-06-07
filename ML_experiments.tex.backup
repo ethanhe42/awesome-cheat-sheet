@@ -1,8 +1,0 @@
-\documentclass[cheatsheet.tex]{subfiles}
-\begin{document}
-\textbf{Performance estimation}(testing), Holdout Method(leave $\sim30\%$), cross-validation, leave-one-out.\\
-
-\textbf{Cross-validation} large data sets, fewer folds. For sparse, leave-one-out best. If $var>acceptable\ var$, we need more data. If statisfied, run over the entire data set produce the final model. \\
-
-\textbf{Testing} Applied after the model is finalized. 
-\end{document}
