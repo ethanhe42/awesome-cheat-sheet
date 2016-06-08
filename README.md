@@ -1,5 +1,4 @@
 # awesome cheat sheet
-###### page 1
 ![a](cheatsheet-0.png)  
-###### page 2
+###### the other side
 ![a](cheatsheet-1.png)
